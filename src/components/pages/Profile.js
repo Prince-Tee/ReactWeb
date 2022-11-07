@@ -27,34 +27,39 @@ export const Profile = () => {
               alt="profile_image"/>
           </div>
 
+    <h2 id="twitter">Taiwo Adebiyi</h2>
+
+    <h2 id="slack" className="mt-0">ADEBIYI1605</h2>
+
         <div className="container">
-        <div>
-            <a href="https://twitter.com/Iam_PrinceTee" 
-            className="btn btn-block btn-link mb-3">Twitter Link</a>
+            <div>
+            <a href="https://twitter.com/Iam_PrinceTee"
+              className="btn btn-block btn-link mb-3">Twitter Link</a>
           </div>
           <div>
             <a href="https://training.zuri.team/" 
             id="btn__zuri"
-            className="btn btn-block btn-link mb-3">TRANING</a>
+            className="btn btn-block btn-link mb-3">Zuri Team</a>
           </div>
           <div>
-            <a href=" http://books.zuri.team" 
-            id="books"
-            className="btn btn-block btn-link mb-3">This is where you find books about design and coding</a>
+            <a href=" http://books.zuri.team"
+             className="btn btn-block btn-link mb-3" 
+            id="books">Zuri Books</a>
           </div>
           <div>
-            <a href="https://books.zuri.team/python-for-beginners?ref_id=ADEBIYI1605" 
+            <a href="https://books.zuri.team/python-for-beginners?ref_id=Taiwo-Adebiyi" 
             id="book__python"
-            className="btn btn-block btn-link mb-3 text-capitalize">ZURI PYTHON BOOKS</a>
+            className="btn btn-block btn-link mb-3">Python Books</a>
           </div>
           <div>
             <a href="https://background.zuri.team" 
             id="pitch"
-            className="btn btn-block btn-link mb-3">Background checks on coders</a></div>
+            className="btn btn-block btn-link mb-3 text-capitalize">Background checks on coders</a>
+          </div>
           <div>
             <a href="https://books.zuri.team/design-rules" 
             id="book__design"
-            className="btn btn-block btn-link mb-3">ZURI free design books</a>
+            className="btn btn-block btn-link mb-3">Design Books</a>
           </div>
           <div>
             <Link to="/contact" 
