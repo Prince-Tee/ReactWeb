@@ -10,8 +10,8 @@ function App() {
         <Routes>
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Profile/>}/>
-          <Footer/>
         </Routes> 
+        <Footer/>
     </div>
   );
 }
