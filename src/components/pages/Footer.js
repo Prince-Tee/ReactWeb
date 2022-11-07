@@ -1,6 +1,6 @@
 import React from "react"
-import Vector from "./img/Vector.png";
-import I4G from "./img/I4G.png";
+import Vector from "../img/Vector.png";
+import I4G from "../img/I4G.png";
 
 function Footer() {
   return (
