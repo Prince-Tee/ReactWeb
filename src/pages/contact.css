@@ -1,202 +1,165 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  max-width: 1440px;
+  position: relative;
+  background: #ffffff;
+  margin: auto;
+}
+
+.content {
+  width: 500px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+
+header {
+  text-align: left;
+}
+
+input {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+form {
+  margin: 30px 0 30px 0;
+}
+
+.first-last {
+  display: flex;
+  justify-content: space-between;
+}
+
+#first_name,
+#last_name {
+  padding: 10px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+#email {
+  padding: 10px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+#first_name,
+#last_name,
+#email,
+#message {
+  color: #344054;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+::placeholder {
+  color: #475467;
+  font-family: "Inter";
+}
+
+#btn__submit {
+  padding: 12px 20px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+textarea {
+  padding: 12px 14px;
+  width: 100%;
+  height: 132px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.check-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 25px;
+  border-top: 1px solid rgb(231, 223, 223);
+}
+
+.zuri-intern {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.dot::after {
+  content: ".";
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.hng-intern {
+  font-size: 12px;
+  color: rgb(129, 123, 123);
+}
+
+.bottom {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 475px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 64px 0px 96px;
-    gap: 64px;
-    position: relative;
-    width: 1440px;
-    height: 1120px;
-    background: #ffffff;
+    padding: 20px;
   }
-  
-  h1 {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -0.02em;
-    color: #101828;
-  }
-  
-  input {
-    margin-bottom: 20px;
-    margin-top: 5px;
-  }
-  
-  form {
-    margin: 30px 0 30px 0;
+
+  .content {
+    width: 300px;
   }
   
   .first-last {
-    display: flex;
-    justify-content: space-between;
+    display: block;
   }
-  
-  #first_name,
-  #last_name {
-    padding: 10px 14px;
-    width: 100%;
-    background: #ffffff;
-    border: 1px solid #d0d5dd;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-  }
-  
-  #email {
-    padding: 10px 14px;
-    width: 100%;
-    background: #ffffff;
-    border: 1px solid #d0d5dd;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-  }
-  
-  #first_name,
-  #last_name,
-  #email,
-  #message {
-    color: #344054;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  
-  ::placeholder {
-    color: #475467;
-    font-family: "Inter";
-  }
-   
-  
- 
-  
-  
-  input {
-    margin-bottom: 20px;
-    margin-top: 5px;
-  }
-  
-  form {
-    margin: 30px 0 30px 0;
-  }
-  
-  .first-last {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #first_name,
-  #last_name {
-    padding: 10px 14px;
-    width: 100%;
-    background: #ffffff;
-    border: 1px solid #d0d5dd;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-  }
-  
-  #email {
-    padding: 10px 14px;
-    width: 100%;
-    background: #ffffff;
-    border: 1px solid #d0d5dd;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-  }
-  
-  #first_name,
-  #last_name,
-  #email,
-  #message {
-    color: #344054;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  
-  ::placeholder {
-    color: #475467;
-    font-family: "Inter";
-  }
-    #btn__submit {
-    padding: 12px 20px;
-    background: #1570ef;
-    border: 1px solid #1570ef;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: white;
-  }
-  
-  textarea {
-    padding: 12px 14px;
-    width: 100%;
-    height: 132px;
-    background: #ffffff;
-    border: 1px solid #d0d5dd;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-  }
-  
-  .check-info {
-    margin-top: 20px;
-  }
-  
-  input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
-  footer {
-    margin-top: 25px;
-    border-top: 1px solid rgb(231, 223, 223);
-  }
-  
-  .zuri-intern {
-    font-size: 15px;
-    font-weight: 700;
-  }
-  
-  .dot::after {
-    content: ".";
-    color: red;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  
-  .hng-intern {
-    font-size: 12px;
-    color: rgb(129, 123, 123);
-  }
-  
+
   .bottom {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
+    display: block;
   }
-  
-  @media only screen and (max-width: 475px) {
-    .first-last {
-      display: block;
-    }
-  
-    .bottom {
-      display: block;
-    }
-  
-  
-  }
+}
